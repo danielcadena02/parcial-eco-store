@@ -1,0 +1,209 @@
+[
+	{
+		"id":1,
+		"imagen":"1.jpg",
+		"name":"Aceite esencial de Clavo",
+		"quantity":"12ML",
+		"precio":7.99,
+		"precioUNIDAD":"Sale a: 665,83 €/L",
+		"description":"El aceite esencial de clavo es conocido por sus increíbles propiedades antimicrobianas, antimicóticas, antisépticas, antivirales, afrodisíacas y estimulantes. Perfecto para utilizar en tus mezclas de Cosmética Natural, añadiendo unas cuantas gotas en tu crema corporal o aceite vegetal, conseguirás nutrir y lucir una piel radiante y 100% cuidad."
+	},
+	{
+		"id":2,
+		"imagen":"2.jpg",
+		"name":"Parches de Oro de 24 kt Rejuvenecedores para Contorno de Ojos",
+		"quantity":"60UDS.",
+		"precio":15.50,
+        "precioUNIDAD":"Sale a: 0,26 €/ud.",
+		"description":"Parches de oro de 24 kt rejuvenecedores para contorno de ojos de Natura Siberica. Parches para ojos con efecto rejuvenecedor enriquecidos con oro de 24kt. Su acción descongestiona la piel, la suaviza y mejora su luminosidad.\nEstos parches con oro de 24kt son la opción perfecta para rejuvenecer la mirada en pocos minutos. Basados en activo postbiótico único y extractos fermentados de mora de los pantanos norteña y frambuesa silvestre, contienen dos activos únicos para combatir los signos de envejecimiento: el complejo de polipéptidos SYN-COLL® y oro de 24kt. Gracias a ellos, estimulan la síntesis de colágeno en las células de la piel y ayudan a suavizar las arrugas, mejorando la"
+	},
+	{
+		"id":3,
+		"imagen":"3.jpg",
+		"name":"Parches Iluminadores para el Contorno de Ojos",
+		"quantity":"60UDS.",
+		"precio":15.50,
+        "precioUNIDAD":"Sale a: 0,26 €/ud.",
+		"description":""
+	},
+	{
+		"id":4,
+		"imagen":"4.jpg",
+		"name":"Parches Supertonificantes para Contorno de Ojos",
+		"quantity":"60UDS.",
+		"precio":15.50,
+        "precioUNIDAD":"Sale a: 0,26 €/ud.",
+		"description":"Parches supertonificantes para contorno de ojos de Natura siberica. Parches para ojos con efecto tonificante que reducen visiblemente los signos de fatiga en la mirada y le aportan luz y vitalidad al instante.\nEstos parches supertonificantes son la solución definitiva para decir adiós a los signos de fatiga y la hinchazón en el contorno de los ojos. Basados en activo postbiótico único y extractos fermentados de mora de los pantanos norteña y frambuesa silvestre, crean sobre la mirada un efecto iluminador y energizante al instante. La cafeína presente en su fórmula ayuda a tensar las líneas finas y reducir la piel hinchada, mientras que la vitamina E genera un efecto regenerador que deja un aspecto descansado y revitalizado."
+	},
+	{
+		"id":5,
+		"imagen":"5.jpg",
+		"name":"6 Discos Desmaquillantes de Fibra Natural",
+		"quantity":"6UDS.",
+		"precio":10.50,
+        "precioUNIDAD":"Sale a: 1,75 €/ud.",
+		"description":"Eliminan el maquillaje y limpian el rostro con suavidad. Elaborados en algodón y carbón de bambú. De doble cara y función:\nLimpieza diaria: elaborada en algodón ultrasuave es adecuada para productos líquidos.\nExfoliante: combinación de algodón y carbón de bambú, de propiedades purificantes y desintoxicantes. Indicada para texturas cremosas y densas.\nIncluye 6 discos y una práctica bolsita de algodón para lavarlos ( máx. 30 grados) y guardarlos. No secar en secadora.\nReúnen ahorro en otros productos de un solo uso (toallitas, discos de algodón) y máximo respeto por el medio ambiente."
+	},
+	{
+		"id":6,
+		"imagen":"6.jpg",
+		"name":"Aceite anticelulítico de abedul",
+		"quantity":"100ML",
+		"precio":22.90,
+        "precioUNIDAD":"Sale a: 229,00 €/L",
+		"description":"El extracto de hojas de abedul contiene flavonoides y tanines, los cuales sirven para mantener y conservar el metabolismo y circulación de los líquidos en el cuerpo. Su función es dar firmeza, elasticidad y suavidad a la piel, previniendo y mejorando el estado de la misma. Por esta razón, previene y mejora la celulitis. No contiene ni sustancias químicas, ni colorantes, ni conservantes. Es apto para veganos y no está testado en animales."
+	},
+	{
+		"id":7,
+		"imagen":"7.jpg",
+		"name":"Aceite antiinflamatorio S.O.S Rescate",
+		"quantity":"30ML",
+		"precio":12.45,
+        "precioUNIDAD":"Sale a: 415,00 €/L",
+		"description":"Pequeñas heridas, quemaduras, golpes, cicatrices… ¿Cuántos productos diferentes estás usando para paliar estos accidentes? Pues a partir de ahora con uno sólo podrás calmar y regenerar tu piel y la de toda tu familia con S. O. S. Rescate, una extraordinaria mezcla de aceites vegetales y esenciales procedentes de agricultura ecológica."
+	},
+	{
+		"id":8,
+		"imagen":"8.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	},
+	{
+		"id":9,
+		"imagen":"9.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	},
+	{
+		"id":10,
+		"imagen":"10.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	},
+	{
+		"id":11,
+		"imagen":"11.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	},
+	{
+		"id":12,
+		"imagen":"12.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	},
+	{
+		"id":13,
+		"imagen":"13.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	},
+	{
+		"id":14,
+		"imagen":"14.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	},
+	{
+		"id":15,
+		"imagen":"15.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	},
+	{
+		"id":16,
+		"imagen":"16.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	},
+	{
+		"id":17,
+		"imagen":"17.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	},
+	{
+		"id":18,
+		"imagen":"18.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	},
+	{
+		"id":19,
+		"imagen":"19.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	},
+	{
+		"id":20,
+		"imagen":"20.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	},
+	{
+		"id":21,
+		"imagen":"21.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	},
+	{
+		"id":22,
+		"imagen":"22.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	},
+	{
+		"id":23,
+		"imagen":"23.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	},
+	{
+		"id":24,
+		"imagen":"24.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	},
+	{
+		"id":25,
+		"imagen":"25.jpg",
+		"name":"",
+		"quantity":"",
+		"precio":7.99,
+		"description":""
+	}
+]

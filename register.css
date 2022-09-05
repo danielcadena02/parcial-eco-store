@@ -1,0 +1,18 @@
+body{
+    background: #a6ff94;
+}
+
+.btn-primary{
+    background-color: #5ccb5f;
+}
+
+.bg-primary{
+    background-color: #5ccb5f;
+}
+
+.row {
+    width: 550px;
+}
+.container {
+    width: 550px;
+}

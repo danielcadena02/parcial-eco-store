@@ -1,0 +1,17 @@
+body{
+    background: #a6ff94;
+}
+
+    .bg{
+    background-image: url(Buena\ Vida.png);
+    background-position: center ;
+
+}
+
+.btn-primary{
+    background-color: #5ccb5f;
+}
+
+.bg-primary{
+    background-color: #5ccb5f;
+}

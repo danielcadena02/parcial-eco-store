@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="catalogo.css" rel="stylesheet">
+        <link rel="stylesheet" href="bootstrap.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.29/dist/sweetalert2.all.min.js"></script>
+        <script type="text/javascript" src="elementos.json"></script>
+    </head>
+    <script>
+        function load() {
+                var mydata = JSON.parse();
+                alert(mydata.length);
+
+                var div = document.getElementById('data');
+
+                for(var i = 0;i < mydata.length; i++)
+                {
+                    div.innerHTML = div.innerHTML + "<p class='inner' id="+i+">"+ mydata[i].name +"</p>" + "<br>";
+                }
+            }
+    </script>
+    <body>
+        <div class="grid-container">
+            <div class="usuario" style="position:absolute;top: 6%; left:5% ;width:350px;overflow:hidden;">
+                <a onclick="alerta()">
+                <img src="../Fotos/usuario.png" alt="usuario" width="40" height="40">
+                Usuario
+                </a>
+                <div class="usuario_foto" style="position: absolute; background-color: White; border-style: solid; margin-top: 20px; left:0%; width:300px;">
+                    <img src="../Fotos/usuario.png" alt="usuario" width="100" height="100">
+                    <br>
+                </div>
+            </div>
+            <div class="item1">
+                <h1>UPB FOOD</h1>
+            </div>
+            <div class="item3">
+                <ul class="topnav">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">UPB</a></li>
+                    <li><a href="#">Delacuesta</a></li>
+                    <li><a href="#">Parque Caracoli</a>
+                    <li id="reseña" ><a href="comentarios.php">RESEÑAS-(Clientes)</a>
+                    
+        
+                    <div class="search">
+                        <form action="#">
+                            <input type="text"
+                                id = "buscar"
+                                placeholder="Buscar productos"
+                                name="search">                            
+                        </form>
+                    </div>
+                </ul>
+
+                <!-- PRODUCTOS DEL CATALOGO -->
+
+                <div class="grid-container-numeros">
+                    <div>
+
+<!-- PRODUCTO 1 -->
+
+                        <!-- foto del producto -->
+                        <img class="imagen_producto" src="src-eco-store/1.jpg">
+
+                        <!-- Nombre del producto -->
+                        <h3 class="nombre_producto">
+                            Aceite esencial de Clavo
+                        </h3>
+
+                        <!-- cantidad de producto -->
+                        <p class="cantidad_producto">
+                            12ML
+                        </p>
+
+                        <!-- relación precio/cantidad -->
+                        <p class="relacionCP_producto">
+                            Sale a: 665,83 €/L
+                        </p>
+
+                        <!-- precio -->
+                        <p class="precio_producto">
+                            7,99 €
+                        </p>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary"> agregar al carrito</button>
+                        </div>
+                    </div>
+                    
+
+<!-- PRODUCTO 2  -->
+
+                    <div>
+                        <img class="imagen_producto" src="src-eco-store/2.jpg">
+                        <h3 class="nombre_producto">
+                            Parches de Oro de 24 kt Rejuvenecedores para Contorno de Ojos
+                        </h3>
+                        <p class="cantidad_producto">
+                            60UDS
+                        </p>
+                        <p class="relacionCP_producto">
+                            Sale a: 0,26 €/ud.
+                        </p>
+                        <p class="precio_producto">
+                            15,50 €
+                        </p>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary"> agregar al carrito</button>
+                        </div>
+                    </div>
+
+<!-- PRODUCTO 3  -->
+
+
+                    <div>
+                        <img class="imagen_producto" src="src-eco-store/3.jpg">
+                        <h3 class="nombre_producto">
+                            Parches Iluminadores para el Contorno de Ojos
+                        </h3>
+                        <p class="cantidad_producto">
+                            60UDS
+                        </p>
+                        <p class="relacionCP_producto">
+                            Sale a: 0,26 €/ud
+                        </p>
+                        <p class="precio_producto">
+                            15,50 €
+                        </p>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary"> agregar al carrito</button>
+                        </div>
+                    </div>
+
+<!-- < PRODUCTO 4 > -->
+
+                    <div>
+                        <img class="imagen_producto" src="src-eco-store/4.jpg">
+                        <h3 class="nombre_producto">
+                            Parches Supertonificantes para Contorno de Ojos
+                        </h3>
+                        <p class="cantidad_producto">
+                            60UDS
+                        </p>
+                        
+                        <p class="precio_producto">
+                            15,50 €
+                        </p>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary"> agregar al carrito</button>
+                        </div>
+                    </div>
+
+<!-- < PRODUCTO 5 > -->
+
+                    <div>
+                        <img class="imagen_producto" src="src-eco-store/5.jpg">
+                        <h3 class="nombre_producto">
+                            6 Discos Desmaquillantes de Fibra Natural
+                        </h3>
+                        <p class="cantidad_producto">
+                            6UDS
+                        </p>
+                        <p class="relacionCP_producto">
+                            Sale a: 1,75 €/ud
+                        </p>
+                        <p class="precio_producto">
+                            10,50 €
+
+                        </p>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary"> agregar al carrito</button>
+                        </div>
+                    </div>
+
+<!-- < PRODUCTO 6 > -->
+
+                    <div>
+                        <img class="imagen_producto" src="src-eco-store/6.jpg">
+                        <h3 class="nombre_producto">
+                            Aceite anticelulítico de abedul
+                        </h3>
+                        <p class="cantidad_producto">
+                            100ML
+                        </p>
+                        <p class="relacionCP_producto">
+                            Sale a: 229,00 €/L
+                        </p>
+                        <p class="precio_producto">
+                            22,90 €
+                        </p>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary"> agregar al carrito</button>
+                        </div>
+                    </div>
+
+<!-- < PRODUCTO 7 > -->
+
+                    <div>
+                        <img class="imagen_producto" src="src-eco-store/7.jpg">
+                        <h3 class="nombre_producto">
+                            Aceite antiinflamatorio S.O.S Rescate
+                        </h3>
+                        <p class="cantidad_producto">
+                            30ML
+                        </p>
+                        <p class="relacionCP_producto">
+                            Sale a: 415,00 €/L
+                        </p>
+                        <p class="precio_producto">
+                            12,45 €
+                        </p>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary"> agregar al carrito</button>
+                        </div>
+                    </div>
+
+<!-- < PRODUCTO 8 > -->
+
+                    <div>
+                        <img class="imagen_producto" src="src-eco-store/8.jpg">
+                        <h3 class="nombre_producto">
+                            Aceite esencial de Clavo
+                        </h3>
+                        <p class="cantidad_producto">
+                            12ML
+                        </p>
+                        <p class="relacionCP_producto">
+                            Sale a: 665,83 €/L
+                        </p>
+                        <p class="precio_producto">
+                            7,99 €
+                        </p>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary"> agregar al carrito</button>
+                        </div>
+                    </div>
+
+<!-- < PRODUCTO 9 > -->
+
+                    <div>
+                        <img class="imagen_producto" src="src-eco-store/9.jpg">
+                        <h3 class="nombre_producto">
+                            Aceite corporal blanco siberiano anticelulítico de Natura Siberica
+                        </h3>
+                        <p class="cantidad_producto">
+                            200ML
+                        </p>
+                        <p class="relacionCP_producto">
+                            Sale a: 34,75 €/L
+                        </p>
+                        <p class="precio_producto">
+                            6,95 €
+                        </p>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary"> agregar al carrito</button>
+                        </div>
+                    </div>
+
+<!-- < PRODUCTO 10 > -->
+
+                    <div>
+                        <img class="imagen_producto" src="src-eco-store/10.jpg">
+                        <h3 class="nombre_producto">
+                            Aceite corporal Body Sculptor
+                        </h3>
+                        <p class="cantidad_producto">
+                            150ML
+                        </p>
+                        <p class="relacionCP_producto">
+                            Sale a: 491,33 €/L
+                        </p>
+                        <p class="precio_producto">
+                            73,70 €
+                        </p>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary"> agregar al carrito</button>
+                        </div>
+                    </div>
+
+<!-- < PRODUCTO 11 > -->
+
+                    <div>
+                        <img class="imagen_producto" src="src-eco-store/11.jpg">
+                        <h3 class="nombre_producto">
+                            Aceite corporal de almendras dulces
+                        </h3>
+                        <p class="cantidad_producto">
+                            500ML
+                        </p>
+                        <p class="relacionCP_producto">
+                            Sale a: 20,90 €/L
+                        </p>
+                        <p class="precio_producto">
+                            10,45 €
+                        </p>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary"> agregar al carrito</button>
+                        </div>
+                    </div>
+
+<!-- < PRODUCTO 12 > -->
+
+                    <div>
+                        <img class="imagen_producto" src="src-eco-store/12.jpg">
+                        <h3 class="nombre_producto">
+                            Aceite corporal de almendras dulces con dosificador 1L
+                        </h3>
+                        <p class="cantidad_producto">
+                            1L
+                        </p>
+                        <p class="relacionCP_producto">
+                            Sale a: 14,99 €/L
+                        </p>
+                        <p class="precio_producto">
+                            14,99 €
+                        </p>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary"> agregar al carrito</button>
+                        </div>
+                    </div>
+                </div-->
+        </div>
+        <script src="catalogo.js"> </script>
+        <script src="bootstrap.bundle.min.js"></script>
+    </body>
+</html>
